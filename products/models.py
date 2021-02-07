@@ -5,4 +5,4 @@ from django.db import models
 class Product(models.Model):
     name = models.CharField(max_length=100)
     price = models.PositiveIntegerField(default=0)
-    image = models.FilePathField(path="/Users/zoe/portfolio/django_ecommerce/products/static/img")
+    image = models.FilePathField(path="/Users/zoe/portfolio/react_ecommerce/public/images")
