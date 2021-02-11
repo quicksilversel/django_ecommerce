@@ -132,3 +132,7 @@ STATICFILES_DIRS = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+JWT_AUTH = {
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'django_ecommerce.utils.my_jwt_response_handler'
+}
